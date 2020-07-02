@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/benlee/catkin_ws/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/benlee/catkin_ws/src/IL_Keyence_ros/include/**",
+                "/home/benlee/catkin_ws/src/MoMach_ros/include/**",
+                "/home/benlee/catkin_ws/src/MoMach_ros_imu/include/**",
+                "/home/benlee/catkin_ws/src/moveit/moveit_planners/chomp/chomp_motion_planner/include/**",
+                "/home/benlee/catkin_ws/src/ddynamic_reconfigure/include/**",
+                "/home/benlee/catkin_ws/src/geometric_shapes/include/**",
+                "/home/benlee/catkin_ws/src/imu_tools/imu_complementary_filter/include/**",
+                "/home/benlee/catkin_ws/src/imu_tools/imu_filter_madgwick/include/**",
+                "/home/benlee/catkin_ws/src/moveit/moveit_experimental/moveit_jog_arm/include/**",
+                "/home/benlee/catkin_ws/src/moveit/moveit_planners/chomp/chomp_interface/include/**",
+                "/home/benlee/catkin_ws/src/moveit/moveit_ros/benchmarks/include/**",
+                "/home/benlee/catkin_ws/src/moveit/moveit_plugins/moveit_ros_control_interface/include/**",
+                "/home/benlee/catkin_ws/src/moveit/moveit_ros/move_group/include/**",
+                "/home/benlee/catkin_ws/src/moveit/moveit_ros/occupancy_map_monitor/include/**",
+                "/home/benlee/catkin_ws/src/moveit/moveit_ros/robot_interaction/include/**",
+                "/home/benlee/catkin_ws/src/moveit/moveit_setup_assistant/include/**",
+                "/home/benlee/catkin_ws/src/moveit/moveit_plugins/moveit_simple_controller_manager/include/**",
+                "/home/benlee/catkin_ws/src/moveit_visual_tools/include/**",
+                "/home/benlee/catkin_ws/src/opencr_imu/include/**",
+                "/home/benlee/catkin_ws/src/realsense-ros/realsense2_camera/include/**",
+                "/home/benlee/catkin_ws/src/rosserial/rosserial_server/include/**",
+                "/home/benlee/catkin_ws/src/rosserial/rosserial_test/include/**",
+                "/home/benlee/catkin_ws/src/rviz_visual_tools/include/**",
+                "/home/benlee/catkin_ws/src/moveit/moveit_planners/sbpl/core/sbpl_interface/include/**",
+                "/home/benlee/catkin_ws/src/usb_cam/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}
