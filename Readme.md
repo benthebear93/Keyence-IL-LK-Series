@@ -9,6 +9,8 @@
 
 - [Keyence Laser Sensor Data Check](#keyence-laser-sensor-data-check)
 
+- [Keyence Laser Sensor ROS](#keyence-laser-sensor-ROS)
+
 ## Network Settings
 ### Keyence Ethernet IP address setting
 Using Keyence Ethernet communication module (DL-EN1), configure static ip address.  
@@ -21,3 +23,7 @@ Find out Data protocol.
 <img width="695" alt="check" src="https://user-images.githubusercontent.com/34788458/86210515-b6df9b80-bbaf-11ea-9e87-5a56988d6632.PNG">
 
 <img width="696" alt="J1" src="https://user-images.githubusercontent.com/34788458/86210591-d4ad0080-bbaf-11ea-8032-c8886fa0fb03.PNG">
+
+## Keyence Laser Sensor ROS
+18.04 / melodic/ 
+publish laser seonsor data ("laser")
