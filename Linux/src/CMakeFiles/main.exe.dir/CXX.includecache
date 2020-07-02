@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/benlee/Desktop/Laser_pack/IL_Keyence/Linux/src/IL_GetMeasurement_linux.cpp
+IL_GetMeasurement_linux.h
+/home/benlee/Desktop/Laser_pack/IL_Keyence/Linux/src/IL_GetMeasurement_linux.h
+
+/home/benlee/Desktop/Laser_pack/IL_Keyence/Linux/src/IL_GetMeasurement_linux.h
+iostream
+-
+stdlib.h
+-
+stdio.h
+-
+math.h
+-
+unistd.h
+-
+sys/socket.h
+-
+sys/types.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+
+/home/benlee/Desktop/Laser_pack/IL_Keyence/Linux/src/main.cpp
+stdio.h
+-
+IL_GetMeasurement_linux.h
+/home/benlee/Desktop/Laser_pack/IL_Keyence/Linux/src/IL_GetMeasurement_linux.h
+
