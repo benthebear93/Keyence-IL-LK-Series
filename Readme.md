@@ -1,12 +1,11 @@
-# IL-series Keyence
-## Read distance data from IL-series laser sensor from Keyence
+# IL and LK series Keyence
+## Read distance data from IL & LK-G5000 laser sensor from Keyence
 
-## [Table of Contents](#table-of-contents)
+## [Table of Contents(IL_)](#table-of-contents)
 
 - [Network Settings](#network-settings)
-
-	- [Keyence Ethernet IP Address Setting](#keyence-ethernet-ip-address-setting)
-
+- [Keyence Ethernet IP Address Setting](#keyence-ethernet-ip-address-setting)
+	
 - [Keyence Laser Sensor Data Check](#keyence-laser-sensor-data-check)
 
 - [Keyence Laser Sensor ROS](#keyence-laser-sensor-ROS)
@@ -24,6 +23,10 @@ Find out Data protocol.
 
 <img width="696" alt="J1" src="https://user-images.githubusercontent.com/34788458/86210591-d4ad0080-bbaf-11ea-8032-c8886fa0fb03.PNG">
 
-## Keyence Laser Sensor ROS
-18.04 / melodic/ 
-publish laser seonsor data ("laser")
+## Keyence Laser Sensor ROS(only IL-Series)
+18.04 / melodic
+publish laser sensor data ("laser")
+
+## LK-G5001
+
+reference : LK-G5000_measurement_protocol.xlsx
