@@ -13,7 +13,7 @@
 - [Keyence LK Series protocol reference](#keyence-LK-Series-Protocol)
 
 ## Network Settings
-### Keyence(IL) Ethernet IP Address Setting
+## Keyence(IL) Ethernet IP Address Setting
 Using Keyence Ethernet communication module (DL-EN1), configure static ip address.  
 configuration program (https://www.keyence.com/downloads/?mode=so&q=DL-EN1&o=0)
 <img width="398" alt="ifconfig" src="https://user-images.githubusercontent.com/34788458/86210593-d5de2d80-bbaf-11ea-9380-53ac167bb592.PNG">
