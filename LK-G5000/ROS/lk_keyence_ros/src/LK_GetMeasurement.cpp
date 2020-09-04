@@ -52,12 +52,16 @@ int main(int argc, char**argv) {
          return 0;
       }
       //printf("\n");
-      //PrintHexa(OutputMeasurement, ret);
-		int byte = 0, byte2 = 0;
+      PrintHexa(OutputMeasurement, ret);
+      printf("68 is %02X ", (unsigned char)OutputMeasurement[68]);
+      printf("69 is %02X ", (unsigned char)OutputMeasurement[69]);
+		int byte = 0, byte2 = 0, msb = 0, byte3 = 0;
       double outMeasurementValueMM = 0;
-      byte = OutputMeasurement[68]; //7B
-		byte2 = OutputMeasurement[69]; //E1
-		outMeasurementValueMM = byte2<< 8 | byte;
+      byte = (unsigned char)OutputMeasurement[68]; //B1
+		byte2 = (unsigned char)OutputMeasurement[69]; //05
+      byte3 = (unsigned char)OutputMeasurement[70];
+      msb =(unsigned char)OutputMeasurement[71];
+		outMeasurementValueMM = msb << 24| byte3<< 16 | byte2 << 8 | byte;
       measurement_mm.data = outMeasurementValueMM;
       laser_pub.publish(measurement_mm);
       printf("out put : %f mm\n", outMeasurementValueMM/1000.0);
